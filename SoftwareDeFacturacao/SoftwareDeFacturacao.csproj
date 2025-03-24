@@ -98,6 +98,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Painel_Controle1.cs" />
     <EmbeddedResource Include="FormCadastrarUsuarios.resx">
       <DependentUpon>FormCadastrarUsuarios.cs</DependentUpon>
     </EmbeddedResource>
