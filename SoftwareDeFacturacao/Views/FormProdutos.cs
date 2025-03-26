@@ -16,5 +16,12 @@ namespace SoftwareDeFacturacao
         {
             InitializeComponent();
         }
+
+        private void addAluno_Click(object sender, EventArgs e)
+        {
+            Form1CadastrarProdutos fr = new Form1CadastrarProdutos();
+            fr.ShowDialog();
+            
+        }
     }
 }

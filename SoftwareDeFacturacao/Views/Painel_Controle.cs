@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SoftwareDeFacturacao
 {
-    public partial class Painel_Controle : Form
+    public partial class painelControle : Form
     {
-        public Painel_Controle()
+        public painelControle()
         {
             InitializeComponent();
         }

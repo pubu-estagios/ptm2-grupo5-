@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace SoftwareDeFacturacao
 {
-    public partial class FormClientes : Form
+    public partial class FormConfigSistema : Form
     {
-        public FormClientes()
+        public FormConfigSistema()
         {
             InitializeComponent();
         }
 
-        private void addAluno_Click(object sender, EventArgs e)
+        private void bunifuDropdown1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            FormCadastroClientes fr = new FormCadastroClientes();
-            fr.ShowDialog();
+
         }
     }
 }

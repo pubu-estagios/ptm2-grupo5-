@@ -1,6 +1,6 @@
 ﻿namespace SoftwareDeFacturacao
 {
-    partial class Painel_Controle
+    partial class painelControle
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Painel_Controle));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(painelControle));
             this.bunifuCards1 = new Bunifu.Framework.UI.BunifuCards();
             this.btnAnoLectivo = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -563,7 +563,7 @@
             this.label18.Size = new System.Drawing.Size(0, 30);
             this.label18.TabIndex = 33;
             // 
-            // Painel_Controle
+            // painelControle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -575,8 +575,8 @@
             this.Controls.Add(this.bunifuCards2);
             this.Controls.Add(this.bunifuCards1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Painel_Controle";
-            this.Text = "Painel_Controle";
+            this.Name = "painelControle";
+            this.Text = "painelControle";
             this.Load += new System.EventHandler(this.Painel_Controle_Load);
             this.bunifuCards1.ResumeLayout(false);
             this.bunifuCards1.PerformLayout();

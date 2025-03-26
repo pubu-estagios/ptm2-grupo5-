@@ -17,24 +17,22 @@ namespace SoftwareDeFacturacao
             InitializeComponent();
         }
         //Abrir formulario dentro de um painel 
-        private void OpenFormP(object formP)
+        private void openForm(object form)
         {
             if (this.panelContedor.Controls.Count > 0)
                 this.panelContedor.Controls.RemoveAt(0);
-            Form fh = formP as Form;
-            fh.TopLevel = false;
-            fh.Dock = DockStyle.Fill;
-            this.panelContedor.Controls.Add(fh);
-            this.panelContedor.Tag = fh;
-            fh.Show();
+            Form frm = form as Form;
+            frm.TopLevel = false;
+            frm.Dock = DockStyle.Fill;
+            this.panelContedor.Controls.Add(frm);
+            this.panelContedor.Tag = frm;
+            frm.Show();
+
         }
-        public void backPainel()
-        {
-            OpenFormP(new Views.Painel_Controle(this));
-        }
+
         private void btnTurma_Click(object sender, EventArgs e)
         {
-
+            openForm(new FormClientes());
         }
 
         private void maximizeMenu_Click(object sender, EventArgs e)
@@ -46,7 +44,7 @@ namespace SoftwareDeFacturacao
 
         private void btnControlo_Click(object sender, EventArgs e)
         {
-            OpenFormP(new Views.Painel_Controle(this));
+            openForm(new painelControle());
             
         }
 
@@ -65,6 +63,32 @@ namespace SoftwareDeFacturacao
             this.minizeMenu.Visible = false;
             this.maximizeMenu.Visible = true;
             this.panelMenuPrincipal.Size = new System.Drawing.Size(165, 457);
+        }
+
+        private void btnServico_Click(object sender, EventArgs e)
+        {
+            openForm(new FormProdutos());
+        }
+
+        private void btnConfiguracoes_Click(object sender, EventArgs e)
+        {
+            openForm(new FormUsuarios());
+        }
+
+        private void btnFatura_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnPagamentos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnConfiguracoes_Click_1(object sender, EventArgs e)
+        {
+            FormConfigSistema fr = new FormConfigSistema();
+            fr.ShowDialog();
         }
     }
 }

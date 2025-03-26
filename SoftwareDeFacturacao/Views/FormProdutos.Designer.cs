@@ -156,6 +156,7 @@
             this.addAluno.Text = "          Cadastrar Produtos";
             this.addAluno.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.addAluno.UseVisualStyleBackColor = false;
+            this.addAluno.Click += new System.EventHandler(this.addAluno_Click);
             // 
             // btnAluno
             // 

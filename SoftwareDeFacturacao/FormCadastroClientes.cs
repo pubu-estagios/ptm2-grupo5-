@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace SoftwareDeFacturacao
 {
-    public partial class FormClientes : Form
+    public partial class FormCadastroClientes : Form
     {
-        public FormClientes()
+        public FormCadastroClientes()
         {
             InitializeComponent();
-        }
-
-        private void addAluno_Click(object sender, EventArgs e)
-        {
-            FormCadastroClientes fr = new FormCadastroClientes();
-            fr.ShowDialog();
         }
     }
 }

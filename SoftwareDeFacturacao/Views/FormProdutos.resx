@@ -120,18 +120,18 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJBSURBVFhH7ZY9aBRBFMeflqYXBVMEBMHCQri7CNa3MZKN
-        ISQWBqsETkWUFOIHckp0Z3JrIpGbiR8QrKNlhEAKJWdjI9oq2KQSEUQiBkXHmdm3e7ewtzczaqr7weO4
-        /7x77z/zhuGgS5eEyqklOHd6C+hVAYz8AE7fAwvKuLoNnJn4IkPAtfNCNo+C0W9w/9ZezMik1hh8omP9
-        2DRKjlQmRmF66hXM33gmGz9vMXEJMzIJG4NChTKBUjb3wj7gZEwHqx1CtQ0Pqrtk4iYaeI1qJsYGOFlp
-        bioooJoDo0+TH9SD/ahqVLO4cVbUGsfHMDVi8fZBea9+44ZeotoBFpxsOqZXUNVYG2D0UVJrkYyg2oGc
-        MagLpy9e2shGrM01BvoxFaBe2yPrbEV1yDuoVnfiigE5Y4hp7rrNHeD0ZlKDzZ5F1ZDWMXB6GdUUuQbC
-        sEfu+nPUnHzSp2qFHgP9GRkgG6imUPNWkTr2GBZU0Lwa4wyqlsQFVLQZQyZq1mrmUfPvwMPduGJJqwE1
-        T1P0o4O/Y+Qxqg6kDbjEL+CzB7CaA9lFzYORVazkSFKMfJCfy3ZBHsIC3YeVHGkayH/r/xuMfNUGGH0D
-        QuxAdRtpfQ05eSu/r1kFp9exkiNspleeQvSaucUyVvoLtAl5EvE47OIfGEBKnn+36Pkfi2X/xWFvpO1f
-        NdM8K4oDQ/0lb1gMTV0QR/1xIRvcwaUUpnnWFLwTR3ThyYtR4fLwHC6lMM1zQh2tLL5ZKvvrnUZgktel
-        CwDAHzVAKp73ggeAAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAAkFJREFUWEftlj1oFEEUx5+WphcFUwQEwcJCuLsI1rcxko0hJBYGqwRORZQU4gdy
+        SnRncmsikZuJHxCso2WEQAolZ2Mj2irYpBIRRCIGRceZ2bd7t7C3NzNqqvvB47j/vHvvP/OG4aBLl4TK
+        qSU4d3oL6FUBjPwATt8DC8q4ug2cmfgiQ8C180I2j4LRb3D/1l7MyKTWGHyiY/3YNEqOVCZGYXrqFczf
+        eCYbP28xcQkzMgkbg0KFMoFSNvfCPuBkTAerHUK1DQ+qu2TiJhp4jWomxgY4WWluKiigmgOjT5Mf1IP9
+        qGpUs7hxVtQax8cwNWLx9kF5r37jhl6i2gEWnGw6pldQ1VgbYPRRUmuRjKDagZwxqAunL17ayEaszTUG
+        +jEVoF7bI+tsRXXIO6hWd+KKATljiGnuus0d4PRmUoPNnkXVkNYxcHoZ1RS5BsKwR+76c9ScfNKnaoUe
+        A/0ZGSAbqKZQ81aROvYYFlTQvBrjDKqWxAVUtBlDJmrWauZR8+/Aw924YkmrATVPU/Sjg79j5DGqDqQN
+        uMQv4LMHsJoD2UXNg5FVrORIUox8kJ/LdkEewgLdh5UcaRrIf+v/G4x81QYYfQNC7EB1G2l9DTl5K7+v
+        WQWn17GSI2ymV55C9Jq5xTJW+gu0CXkS8Tjs4h8YQEqef7fo+R+LZf/FYW+k7V810zwrigND/SVvWAxN
+        XRBH/XEhG9zBpRSmedYUvBNHdOHJi1Hh8vAcLqUwzXNCHa0svlkq++udRmCS16ULAMAfNUAqnveCB4AA
+        AAAASUVORK5CYII=
 </value>
   </data>
   <data name="addAluno.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

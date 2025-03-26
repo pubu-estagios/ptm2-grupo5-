@@ -10,11 +10,26 @@ using System.Windows.Forms;
 
 namespace SoftwareDeFacturacao
 {
-    public partial class FormCadastrarUsuarios : Form
+    public partial class FormcadastrarUsuarios : Form
     {
-        public FormCadastrarUsuarios()
+        public FormcadastrarUsuarios()
         {
             InitializeComponent();
+        }
+
+        private void bunifuGroupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuTextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuTextBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

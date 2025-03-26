@@ -37,6 +37,36 @@
     <Reference Include="Bunifu.UI.WinForms.1.5.3">
       <HintPath>..\..\..\..\..\Videos\new\SG-Escolar\SG-Escolar\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
     </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\..\..\..\..\Videos\new\Bunifu\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuCheckBox">
+      <HintPath>..\..\..\..\..\Videos\new\Bunifu\Bunifu.UI.WinForms.BunifuCheckBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDatePicker">
+      <HintPath>..\..\..\..\..\Videos\new\Bunifu\Bunifu.UI.WinForms.BunifuDatePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\..\..\..\..\Videos\new\Bunifu\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGradientPanel">
+      <HintPath>..\..\..\..\..\Videos\new\Bunifu\Bunifu.UI.WinForms.BunifuGradientPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGroupBox">
+      <HintPath>..\..\..\..\..\Videos\new\Bunifu\Bunifu.UI.WinForms.BunifuGroupBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuImageButton">
+      <HintPath>..\..\..\..\..\Videos\new\Bunifu\Bunifu.UI.WinForms.BunifuImageButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel">
+      <HintPath>..\..\..\..\..\Videos\new\Bunifu\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPages">
+      <HintPath>..\..\..\..\..\Videos\new\Bunifu\Bunifu.UI.WinForms.BunifuPages.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuPictureBox">
+      <HintPath>..\..\..\..\..\Videos\new\Bunifu\Bunifu.UI.WinForms.BunifuPictureBox.dll</HintPath>
+    </Reference>
     <Reference Include="Bunifu.UI.WinForms.BunifuTextbox">
       <HintPath>..\..\..\..\..\Videos\new\SG-Escolar\SG-Escolar\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.dll</HintPath>
     </Reference>
@@ -54,11 +84,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1CadastrarProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1CadastrarProdutos.Designer.cs">
+      <DependentUpon>Form1CadastrarProdutos.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormCadastrarUsuarios.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormCadastrarUsuarios.Designer.cs">
       <DependentUpon>FormCadastrarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCadastroClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCadastroClientes.Designer.cs">
+      <DependentUpon>FormCadastroClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConfigSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConfigSistema.Designer.cs">
+      <DependentUpon>FormConfigSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFatura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFatura.Designer.cs">
+      <DependentUpon>FormFatura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPagamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPagamentos.Designer.cs">
+      <DependentUpon>FormPagamentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\teste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\teste.Designer.cs">
+      <DependentUpon>teste.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\FormClientes.cs">
       <SubType>Form</SubType>
@@ -98,9 +164,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\Painel_Controle1.cs" />
+    <EmbeddedResource Include="Form1CadastrarProdutos.resx">
+      <DependentUpon>Form1CadastrarProdutos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormCadastrarUsuarios.resx">
       <DependentUpon>FormCadastrarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCadastroClientes.resx">
+      <DependentUpon>FormCadastroClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConfigSistema.resx">
+      <DependentUpon>FormConfigSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFatura.resx">
+      <DependentUpon>FormFatura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPagamentos.resx">
+      <DependentUpon>FormPagamentos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\FormClientes.resx">
       <DependentUpon>FormClientes.cs</DependentUpon>

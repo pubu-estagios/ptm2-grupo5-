@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnConfiguracoes.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAUxJREFUOE+9
         lM1KxDAUhbvSlQvFhRtdSZu0jqBL0dWgbnWnIIoP4F5mzJ3r0hfyBRzaJHbrQ/gzz6C5kpD+BGVq8YMD
@@ -129,7 +129,7 @@
         tskEP2yi118vxJ8vhya9X19Erxfs/ETRF4RsjOOO8bmkAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnFatura.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAAXNJREFUOE+VkttLAlEQh/fv67XHHiIoJJAy6EIFFYQQ9BAkRRZZyFpKrRBkQQpK
@@ -141,7 +141,7 @@
         pw+o8d/vzcypX7l8HiIHodD5R9otohDED4gEFVP/RczkAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnFinancas.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnPagamentos.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAAXJJREFUOE/FUj0vBUEUnYrIzr5dBT9ARCPRiPrVovCR6DQqT+zM7ksUCokf4Dc8
@@ -186,7 +186,7 @@
         AAAAAAAAAAAAAAAAAADjycTEf1kTbgZkZXOpAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="btnServico.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnProdutos.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAAbFJREFUOE+VU08oREEcfkgtO7OvZZUSpcQZBxcHbm4OcpKcbHaZeShnUqSQcpHc
@@ -210,7 +210,7 @@
         RU5ErkJggg==
 </value>
   </data>
-  <data name="btnConfiguracoes.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnUsuarios.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAAZ9JREFUOE+NUj1LA0EQ3ShCNLtJJAoiiKAgomArij9AbaxiJ+mCXLJ7IWKhTSwk
@@ -223,7 +223,7 @@
         I46aMBYLhPwDoZ+PZ3KiApwAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btnTurma.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btnClientes.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
         wwAADsMBx2+oZAAAAWxJREFUOE/NU8tKxEAQnIOv7E7MigdBEdGT6EH0RxT9B0HNZLPK4k1B8XHyNwSP
