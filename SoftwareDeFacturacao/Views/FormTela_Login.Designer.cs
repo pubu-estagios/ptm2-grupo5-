@@ -31,12 +31,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTela_Login));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label23 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtConta = new System.Windows.Forms.ComboBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.senhaNãoVista = new System.Windows.Forms.PictureBox();
             this.senhaVista = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.txtsenha = new System.Windows.Forms.TextBox();
@@ -91,18 +96,14 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.label19 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.txtConta = new System.Windows.Forms.ComboBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.label23 = new System.Windows.Forms.Label();
+            this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.senhaNãoVista)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.senhaVista)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.tabPage3.SuspendLayout();
@@ -120,8 +121,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -142,6 +142,7 @@
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(47)))), ((int)(((byte)(51)))));
+            this.tabPage1.Controls.Add(this.bunifuPictureBox1);
             this.tabPage1.Controls.Add(this.panel6);
             this.tabPage1.Controls.Add(this.panel1);
             this.tabPage1.Controls.Add(this.label5);
@@ -149,7 +150,6 @@
             this.tabPage1.Controls.Add(this.panel2);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.pictureBox1);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.txtsenha);
@@ -161,12 +161,83 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "tabPage1";
             // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(135)))), ((int)(((byte)(84)))));
+            this.panel6.Controls.Add(this.label23);
+            this.panel6.Location = new System.Drawing.Point(69, 347);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(230, 35);
+            this.panel6.TabIndex = 31;
+            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Font = new System.Drawing.Font("Calibri", 12.75F);
+            this.label23.ForeColor = System.Drawing.Color.White;
+            this.label23.Location = new System.Drawing.Point(77, 8);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(83, 21);
+            this.label23.TabIndex = 0;
+            this.label23.Text = "CANCELAR";
+            this.label23.Click += new System.EventHandler(this.label23_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(110)))), ((int)(((byte)(253)))));
+            this.panel1.Controls.Add(this.label6);
+            this.panel1.Location = new System.Drawing.Point(69, 299);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(230, 35);
+            this.panel1.TabIndex = 30;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Calibri", 12.75F);
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(77, 8);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(69, 21);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "ENTRAR ";
+            // 
+            // label5
+            // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(67, 238);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(92, 15);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Nivel de Acesso";
+            // 
+            // txtConta
+            // 
+            this.txtConta.BackColor = System.Drawing.Color.White;
+            this.txtConta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtConta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txtConta.FormattingEnabled = true;
+            this.txtConta.Items.AddRange(new object[] {
+            "Admin",
+            "POS",
+            "Funcionario"});
+            this.txtConta.Location = new System.Drawing.Point(69, 256);
+            this.txtConta.Name = "txtConta";
+            this.txtConta.Size = new System.Drawing.Size(230, 29);
+            this.txtConta.TabIndex = 28;
+            this.txtConta.SelectedIndexChanged += new System.EventHandler(this.txtConta_SelectedIndexChanged);
+            // 
             // panel2
             // 
             this.panel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel2.Controls.Add(this.senhaNãoVista);
             this.panel2.Controls.Add(this.senhaVista);
-            this.panel2.Location = new System.Drawing.Point(261, 206);
+            this.panel2.Location = new System.Drawing.Point(261, 208);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(38, 22);
             this.panel2.TabIndex = 27;
@@ -219,17 +290,6 @@
             this.label3.Size = new System.Drawing.Size(106, 13);
             this.label3.TabIndex = 24;
             this.label3.Text = "Esqueci minha senha";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(149, 18);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(74, 88);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 23;
-            this.pictureBox1.TabStop = false;
             // 
             // label2
             // 
@@ -777,7 +837,7 @@
             this.textBox9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox9.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox9.ForeColor = System.Drawing.Color.Gainsboro;
-            this.textBox9.Location = new System.Drawing.Point(75, 268);
+            this.textBox9.Location = new System.Drawing.Point(75, 272);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(230, 26);
             this.textBox9.TabIndex = 38;
@@ -790,7 +850,7 @@
             this.panel4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel4.Controls.Add(this.pictureBox11);
             this.panel4.Controls.Add(this.pictureBox12);
-            this.panel4.Location = new System.Drawing.Point(254, 261);
+            this.panel4.Location = new System.Drawing.Point(267, 275);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(38, 22);
             this.panel4.TabIndex = 37;
@@ -852,7 +912,7 @@
             this.panel3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panel3.Controls.Add(this.pictureBox9);
             this.panel3.Controls.Add(this.pictureBox10);
-            this.panel3.Location = new System.Drawing.Point(254, 203);
+            this.panel3.Location = new System.Drawing.Point(254, 206);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(38, 22);
             this.panel3.TabIndex = 34;
@@ -930,76 +990,22 @@
             this.pictureBox7.TabIndex = 30;
             this.pictureBox7.TabStop = false;
             // 
-            // txtConta
+            // bunifuPictureBox1
             // 
-            this.txtConta.BackColor = System.Drawing.Color.White;
-            this.txtConta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtConta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.txtConta.FormattingEnabled = true;
-            this.txtConta.Items.AddRange(new object[] {
-            "Admin",
-            "POS",
-            "Funcionario"});
-            this.txtConta.Location = new System.Drawing.Point(69, 256);
-            this.txtConta.Name = "txtConta";
-            this.txtConta.Size = new System.Drawing.Size(230, 29);
-            this.txtConta.TabIndex = 28;
-            this.txtConta.SelectedIndexChanged += new System.EventHandler(this.txtConta_SelectedIndexChanged);
-            // 
-            // label5
-            // 
-            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Calibri", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(67, 238);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(92, 15);
-            this.label5.TabIndex = 29;
-            this.label5.Text = "Nivel de Acesso";
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(13)))), ((int)(((byte)(110)))), ((int)(((byte)(253)))));
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Location = new System.Drawing.Point(69, 299);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(230, 35);
-            this.panel1.TabIndex = 30;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Calibri", 12.75F);
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(77, 8);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(69, 21);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "ENTRAR ";
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(135)))), ((int)(((byte)(84)))));
-            this.panel6.Controls.Add(this.label23);
-            this.panel6.Location = new System.Drawing.Point(69, 347);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(230, 35);
-            this.panel6.TabIndex = 31;
-            this.panel6.Paint += new System.Windows.Forms.PaintEventHandler(this.panel6_Paint);
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Font = new System.Drawing.Font("Calibri", 12.75F);
-            this.label23.ForeColor = System.Drawing.Color.White;
-            this.label23.Location = new System.Drawing.Point(77, 8);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(83, 21);
-            this.label23.TabIndex = 0;
-            this.label23.Text = "CANCELAR";
-            this.label23.Click += new System.EventHandler(this.label23_Click);
+            this.bunifuPictureBox1.AllowFocused = false;
+            this.bunifuPictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.bunifuPictureBox1.AutoSizeHeight = true;
+            this.bunifuPictureBox1.BorderRadius = 42;
+            this.bunifuPictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuPictureBox1.Image")));
+            this.bunifuPictureBox1.IsCircle = true;
+            this.bunifuPictureBox1.Location = new System.Drawing.Point(144, 22);
+            this.bunifuPictureBox1.Name = "bunifuPictureBox1";
+            this.bunifuPictureBox1.Size = new System.Drawing.Size(84, 84);
+            this.bunifuPictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bunifuPictureBox1.TabIndex = 2;
+            this.bunifuPictureBox1.TabStop = false;
+            this.bunifuPictureBox1.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            this.bunifuPictureBox1.Click += new System.EventHandler(this.bunifuPictureBox1_Click);
             // 
             // FormTela_Login
             // 
@@ -1014,10 +1020,13 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.senhaNãoVista)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.senhaVista)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -1038,10 +1047,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1055,7 +1061,6 @@
         private System.Windows.Forms.PictureBox senhaVista;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtsenha;
@@ -1116,5 +1121,6 @@
         private System.Windows.Forms.Label label23;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label6;
+        private Bunifu.UI.WinForms.BunifuPictureBox bunifuPictureBox1;
     }
 }

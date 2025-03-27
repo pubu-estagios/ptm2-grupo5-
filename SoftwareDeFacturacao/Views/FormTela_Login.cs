@@ -56,5 +56,10 @@ namespace SoftwareDeFacturacao
         {
             Application.Exit();
         }
+
+        private void bunifuPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
